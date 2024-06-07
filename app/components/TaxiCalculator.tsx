@@ -25,7 +25,7 @@ export default function TaxiCalculator() {
         <div className="flex items-center justify-between mb-6">
           <h1 className="text-2xl font-bold">FrontSeat Fare Calculator</h1>
         </div>
-        <div className="grid gap-4">
+        <div className="grid gap-2">
           <div className="grid gap-2">
             <Label htmlFor="taxiFare" className="font-medium">Taxi Fare (ZAR)</Label>
             <Input
@@ -34,7 +34,7 @@ export default function TaxiCalculator() {
               min="0"
               value={taxiFare}
               onChange={(e: ChangeEvent<HTMLInputElement>) => setTaxiFare(e.target.value)}
-              className="border-gray-400 focus:border-primary focus:ring-primary rounded-lg bg-gray-300 text-dark"
+              className="border-gray-400 focus:border-primary focus:ring-primary rounded-lg bg-gray-300 text-dark w-full p-2 "
               inputMode="decimal"
               step="0.01"
               pattern="\d*"
@@ -48,7 +48,7 @@ export default function TaxiCalculator() {
               min="1"
               value={passengers}
               onChange={(e: ChangeEvent<HTMLInputElement>) => setPassengers(e.target.value)}
-              className="border-gray-400 focus:border-primary focus:ring-primary rounded-lg bg-gray-300 text-dark"
+              className="border-gray-400 focus:border-primary focus:ring-primary rounded-lg bg-gray-300 text-dark w-full p-2"
               inputMode="numeric"
               pattern="\d*"
             />
@@ -61,7 +61,7 @@ export default function TaxiCalculator() {
               min="0"
               value={payment}
               onChange={(e: ChangeEvent<HTMLInputElement>) => setPayment(e.target.value)}
-              className="border-gray-400 focus:border-primary focus:ring-primary rounded-lg bg-gray-300 text-dark"
+              className="border-gray-400 focus:border-primary focus:ring-primary rounded-lg bg-gray-300 text-dark w-full p-2"
               inputMode="decimal"
               step="0.01"
               pattern="\d*"
@@ -75,12 +75,12 @@ export default function TaxiCalculator() {
               min="1"
               value={paymentPassengers}
               onChange={(e: ChangeEvent<HTMLInputElement>) => setPaymentPassengers(e.target.value)}
-              className="border-gray-400 focus:border-primary focus:ring-primary rounded-lg bg-gray-300 text-dark"
+              className="border-gray-400 focus:border-primary focus:ring-primary rounded-lg bg-gray-300 text-dark w-full p-2"
               inputMode="numeric"
               pattern="\d*"
             />
           </div>
-          <div className="grid gap-4">
+          <div className="grid gap-2">
             <div className="flex items-center justify-between">
               <div className="font-medium">Total Fare:</div>
               <div className="text-lg font-bold">
