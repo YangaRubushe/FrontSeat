@@ -3,7 +3,7 @@ export default function Footer() {
   
     return (
       <footer className="flex justify-center items-center">
-        <p className="text-sm">© {currentYear} Reserved by FrontSeat</p>
+        <p className="text-sm">© {currentYear} Reserved by Yanga Rubushe</p>
       </footer>
     );
   }
