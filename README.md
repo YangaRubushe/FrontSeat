@@ -1,6 +1,7 @@
 # FrontSeat Fare Calculator
 
 FrontSeat Fare Calculator is a user-friendly application designed to assist passengers and drivers in the South African taxi industry by simplifying fare calculations. This app aims to alleviate the anxiety associated with calculating fares and making change, making the experience of sitting in the front seat of a taxi more comfortable and stress-free.
+![image](https://github.com/user-attachments/assets/e8496357-e729-4cdc-adad-da52c6620187)
 
 ## Features
 
