@@ -59,7 +59,8 @@ To get started with the FrontSeat Fare Calculator, follow these steps:
 
 ## Contact
 
-For any inquiries or support, please contact Yanga Rubushe at yangarubushe@example.com.
+For any inquiries or support, please contact Yanga Rubushe at:
+- **X**: [YangaRubushe](https://x.com/YangaRubushe)
 
 ---
 
